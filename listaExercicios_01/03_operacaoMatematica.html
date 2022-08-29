@@ -1,0 +1,49 @@
+<script>
+    /*
+    //PROBLEMA: Faça um script que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+    - par ou ímpar;
+    - positivo ou negativo;
+    - inteiro ou decimal.
+    */
+
+    //ENTRADA
+
+    const n1 = Number(prompt("fala o primeiro numero meu pit"));
+    const n2 = Number(prompt("fala o segundo numero meu pit"));
+    const qualOperação = (prompt("qual operação tu quer fi? (+ ou * ou - ou /)"));
+    let resultado = 0;
+    //PROCESSAMENTO
+    switch (qualOperação) {
+        case "+": resultado = n1 + n2;
+            break;
+        case "*": resultado = n1 * n2;
+            break;
+        case "-": resultado = n1 - n2;
+            break;
+        case "%": resultado = n1 / n2;
+            break;
+    }
+    const continha1 = resultado % 2
+    switch (continha1) {
+        case 0: alert(`par meu fi`)
+            break;
+        default: alert(`impar meu fi`)
+            break;
+    }
+    switch (resultado){
+        case re < 0: alert (`negativo fi`)
+        break;
+        case resultado
+    }
+
+
+
+
+
+
+
+
+
+    //SAÍDA
+
+</script>
